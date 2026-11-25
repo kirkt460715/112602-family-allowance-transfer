@@ -1,0 +1,60 @@
+[
+  {
+    "sequence": 1,
+    "at": 10,
+    "source": "family",
+    "facts": {
+      "member": "m-2",
+      "from": "g-a",
+      "to": "g-b",
+      "accept": "g-a",
+      "requested_at": 15
+    }
+  },
+  {
+    "sequence": 2,
+    "at": 12,
+    "source": "family",
+    "facts": {
+      "member": "m-2",
+      "accept": "g-b",
+      "promised": 9
+    }
+  },
+  {
+    "sequence": 3,
+    "at": 18,
+    "source": "meter",
+    "facts": {
+      "member": "m-2",
+      "window": [
+        13,
+        17
+      ],
+      "units": 12,
+      "can_split": false
+    }
+  },
+  {
+    "sequence": 4,
+    "at": 19,
+    "source": "meter",
+    "facts": {
+      "member": "m-2",
+      "window": [
+        13,
+        14
+      ],
+      "units": 3
+    }
+  },
+  {
+    "sequence": 5,
+    "at": 31,
+    "source": "billing",
+    "facts": {
+      "period": 1,
+      "closed": true
+    }
+  }
+]

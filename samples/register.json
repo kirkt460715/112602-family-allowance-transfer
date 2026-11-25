@@ -1,0 +1,47 @@
+{
+  "pools": {
+    "g-a": {
+      "period": [
+        1,
+        30
+      ],
+      "capacity": 100,
+      "members": [
+        "m-1",
+        "m-2"
+      ]
+    },
+    "g-b": {
+      "period": [
+        1,
+        30
+      ],
+      "capacity": 70,
+      "members": [
+        "m-3"
+      ]
+    }
+  },
+  "packs": {
+    "personal-4": {
+      "owner": "m-2",
+      "share": false,
+      "capacity": 8
+    },
+    "shared-7": {
+      "owner": "g-a",
+      "share": true,
+      "capacity": 22
+    }
+  },
+  "arrangements": [
+    {
+      "member": "m-2",
+      "g-a_reserved": 20
+    },
+    {
+      "member": "m-3",
+      "g-b_reserved": 61
+    }
+  ]
+}

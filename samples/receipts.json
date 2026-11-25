@@ -1,0 +1,26 @@
+[
+  {
+    "action": "use-slice",
+    "desk": "metering",
+    "ref": "m-2-13-17",
+    "delayed": true,
+    "evidence": {
+      "units": 12,
+      "window": [
+        13,
+        17
+      ],
+      "split": null
+    }
+  },
+  {
+    "action": "closing",
+    "desk": "billing",
+    "ref": "month-1",
+    "delayed": false,
+    "evidence": {
+      "locked": true,
+      "closing_day": 31
+    }
+  }
+]
